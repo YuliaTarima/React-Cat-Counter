@@ -2,7 +2,6 @@ import React from 'react';
 
 function NavItem() {
   
-
   return (
  
     <li className="nav-item">

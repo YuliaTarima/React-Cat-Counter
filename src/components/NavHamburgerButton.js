@@ -2,7 +2,6 @@ import React from 'react';
 
 function NavHamburgerButton() {
   
-
   return (
  
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

@@ -2,7 +2,6 @@ import React from 'react';
 
 function NavItemDropdown() {
   
-
   return (
  
     <li className="nav-item dropdown">
