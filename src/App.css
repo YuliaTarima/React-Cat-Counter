@@ -1,17 +1,17 @@
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
+  max-height: 60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +26,39 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#main-container {
+  /* border-image: url(./images/wood.gif); */
+
+  /* margin: 10px 0; */
+	padding: 20px 40px;
+	font-size: 9pt;
+	background-color: #F8F8F8;
+	color: #59504E;
+  border-radius: calc(.45rem - 1px);
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 4px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #7dabab;
+	-moz-box-shadow: 3px 3px 7px #e4ebeb;
+    -webkit-box-shadow: 3px 3px 7px #e4ebeb;
+    box-shadow: 3px 3px 7px #e4ebeb;
+}
+.content article {
+  margin: auto 30px;
+}
+
+footer {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
