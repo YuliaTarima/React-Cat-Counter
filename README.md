@@ -1,11 +1,13 @@
 # Quick Start
 
 ## Install dependencies
+```
 npm install
-
+```
 ## Serve on localhost:3000
+```
 npm start
-
+```
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
