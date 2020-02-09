@@ -1,9 +1,9 @@
-Quick Start
+# Quick Start
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Serve on localhost:3000
+## Serve on localhost:3000
 npm start
 
 Runs the app in the development mode.
