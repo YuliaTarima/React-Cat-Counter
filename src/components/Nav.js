@@ -2,17 +2,25 @@ import React from 'react';
 import Logo from './Logo';
 import NavHamburgerButton from './NavHamburgerButton';
 import NavItem from './NavItem';
-import NavItemDropdown from './NavItemDropdown';
+//import NavItemDropdown from './NavItemDropdown';
 
-function Nav() {
+function Nav(props) {
+
+// const a = [];
+//   for (let i = 0; i < navItems.length; i++){
+//     a.push(<MenuItem key={navItems[i].text} menuItem={navItems[i]} />);
+//   }
+//
+//   console.log(a)
+
 
   return (
- 
-    <nav className="navbar navbar-expand-sm bg-light navbar-light">
+
+     <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <Logo /><NavHamburgerButton />
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
-            <NavItem /><NavItem /><NavItem /><NavItemDropdown />
+            {props.navItems.map(el => <NavItem key={el.text} navItem={el}/>)}
           </ul>
         </div>
     </nav>

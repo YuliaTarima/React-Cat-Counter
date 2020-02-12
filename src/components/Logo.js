@@ -4,7 +4,7 @@ import logo from '../logo.jpg';
 function Logo() {
 
   return (
-    <a class="navbar-brand" href="javascript:void(0)">
+    <a className="navbar-brand" href="logo">
         <img src={logo}  className="App-logo img-fluid" alt="logo" />
     </a>
   );

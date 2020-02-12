@@ -1,13 +1,13 @@
 import React from 'react';
-import Logo from './Logo';
 import Nav from './Nav';
 
-function Header() {
+function Header(props) {
+
 
   return (
     <div className="container p-3 my-3 border">
       <header>
-        <Nav />   
+        <Nav navItems={props.navItems} />
       </header>
     </div>
   );

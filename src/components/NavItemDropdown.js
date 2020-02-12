@@ -1,17 +1,17 @@
 import React from 'react';
 
-function NavItemDropdown() {
+function NavItemDropdown(props) {
   
   return (
  
     <li className="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbardrop" data-toggle="dropdown">
-        NavItemDropdown
+      <a class="nav-link dropdown-toggle" href={props.navItem.link} id="navbardrop" data-toggle="dropdown">
+        {props.NavItem.text}
       </a>
       <div className="dropdown-menu">
-        <a className="dropdown-item" href="javascript:void(0)">Link 1</a>
-        <a className="dropdown-item" href="javascript:void(0)">Link 2</a>
-        <a className="dropdown-item" href="javascript:void(0)">Link 3</a>
+        <a className="dropdown-item" href={props.navItem.link}>{props.NavItem.text}</a>
+        <a className="dropdown-item" href={props.navItem.link}>{props.NavItem.text}</a>
+        <a className="dropdown-item" href={props.navItem.link}>{props.NavItem.text}</a>
       </div>
     </li>
   );

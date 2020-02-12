@@ -1,11 +1,12 @@
 import React from 'react';
 
-function NavItem() {
+function NavItem(props) {
+console.log(props);
   
   return (
  
     <li className="nav-item">
-      <a className="nav-link" href="javascript:void(0)">NavItem</a>
+      <a className="nav-link" href={props.navItem.link}>{props.navItem.text}</a>
     </li>
 
   );
