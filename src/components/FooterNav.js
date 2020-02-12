@@ -9,7 +9,7 @@ function FooterNav(props) {
 
     <div className="footer-nav col-3">
       <ul className="navbar-nav">
-        {props.navItems.map(el => <NavItem key={el.text} navItem={el}/>)}
+        {props.footerNavItems.map(el => <NavItem key={el.text} navItem={el}/>)}
       </ul>
     </div>
 

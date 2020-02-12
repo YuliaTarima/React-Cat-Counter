@@ -4,7 +4,7 @@ import NavHamburgerButton from './NavHamburgerButton';
 import NavItem from './NavItem';
 //import NavItemDropdown from './NavItemDropdown';
 
-function Nav(props) {
+function HeaderNav(props) {
 
 // const a = [];
 //   for (let i = 0; i < navItems.length; i++){
@@ -28,4 +28,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default HeaderNav;

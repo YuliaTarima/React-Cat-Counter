@@ -62,7 +62,7 @@ function App() {
       <div id="main-container" className="container p-3 my-3 border">
         <Header navItems={navItems}/>
         <Content />
-        <Footer navItems={navItems} socialShareLinks={socialShareLinks} />
+        <Footer footerNavItems={navItems} socialShareLinks={socialShareLinks} />
       </div>
     </div>
   );
