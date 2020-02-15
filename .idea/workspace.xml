@@ -22,11 +22,10 @@
     <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FooterNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialShareContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialShareContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SocialShareItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SocialShareItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -81,7 +80,8 @@
       <updated>1581053972747</updated>
       <workItem from="1581053976550" duration="1084000" />
       <workItem from="1581098861891" duration="1253000" />
-      <workItem from="1581534594583" duration="1902000" />
+      <workItem from="1581534594583" duration="3910000" />
+      <workItem from="1581786147162" duration="1971000" />
     </task>
     <servers />
   </component>

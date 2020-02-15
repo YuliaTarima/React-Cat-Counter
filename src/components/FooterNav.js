@@ -2,8 +2,7 @@ import React from 'react';
 import NavItem from './NavItem';
 
 function FooterNav(props) {
-
-  console.log(props);
+// console.log(props);
 
   return (
 

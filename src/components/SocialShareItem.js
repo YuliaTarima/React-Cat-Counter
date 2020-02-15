@@ -1,7 +1,7 @@
 import React from 'react';
 
 function socialShareItem(props) {
-console.log(props);
+// console.log(props);
   
   return (
  

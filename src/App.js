@@ -56,12 +56,16 @@ import Content from './components/Content';
     }
   ]
 function App() {
+
+      function buttonClicked(name){
+          console.log('CLICKED!!! ' + name);
+      }
   
   return (
     <div className="App">
       <div id="main-container" className="container p-3 my-3 border">
         <Header navItems={navItems}/>
-        <Content />
+        <Content bc={buttonClicked}/>
         <Footer footerNavItems={navItems} socialShareLinks={socialShareLinks} />
       </div>
     </div>

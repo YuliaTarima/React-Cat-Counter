@@ -3,8 +3,7 @@ import NavItem from './NavItem';
 import SocialShareItem from './SocialShareItem';
 
 function SocialShareContainer(props) {
-
-  console.log(props);
+// console.log(props);
 
   return (
 

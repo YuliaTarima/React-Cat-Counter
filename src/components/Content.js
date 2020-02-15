@@ -2,11 +2,12 @@ import React from 'react';
 
 let name ='';
 
-function Content() {
-  const name = 'Yulia';
+function Content(props) {
+    const name = 'Yulia';
 
   const clickButtonHandler = (value) => {
-    console.log('Clicked!' + value)
+    props.bc(name);
+    console.log('Clicked! ' + name + value);
   }
 
   const inputHandler = (e) => {
