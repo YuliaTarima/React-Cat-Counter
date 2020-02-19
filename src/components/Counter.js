@@ -1,17 +1,19 @@
 import React, {useState} from 'react';
+import ResetCount from './ResetCount';
 
 function Counter(props) {
-    const count = props.initialCount;
-    const [prevCount, setCount] = useState(count);
-    //let prevCount = 3;
-    // props.initialCount = prevCount;
-    const countChangePlusHandler = () => {
+
+    const {name} = props.counter;
+
+    const [prevCount, setCount] = useState(props.counter.initialValue);
+
+    const incrementCountHandler = () => {
         //prevCount++;
         setCount(prevCount + 1);
         console.log('Counter: prevCount in + Handler ' + prevCount);
         props.countChanges(prevCount, +1);
     }
-    const countChangeMinusHandler = () => {
+    const decrementCountHandler = () => {
         //prevCount--;
         setCount(prevCount - 1);
         console.log('Counter: prevCount in - Handler ' + prevCount);
@@ -22,11 +24,12 @@ function Counter(props) {
         <div className="container p-3 my-3 border">
             <div className="row content">
                 <p>
-                    <button onClick={() => setCount(count)}>Reset</button>
-                    &nbsp;<strong>Counter Module</strong>&nbsp;
-                    <button onClick={countChangeMinusHandler}>-</button>
-                    &nbsp;Count: {prevCount}&nbsp;
-                    <button onClick={countChangePlusHandler}>+</button>
+                    <button onClick={decrementCountHandler}>-</button>
+                    &nbsp;<strong>Lives of {name} : {prevCount}</strong>&nbsp;
+                    <button onClick={incrementCountHandler}>+</button>
+                    <ResetCount resetCount={props.resetCount}
+                                resetHandler={props.resetHandler}
+                                counter={props.counter}/>
                 </p>
             </div>
         </div>

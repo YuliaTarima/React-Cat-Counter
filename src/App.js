@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Content from './components/Content';
 import Counter from "./components/Counter";
+import NavItem from "./components/NavItem";
 
 const navItems = [
     {text: 'Home', link: 'home-page'},
@@ -26,15 +27,27 @@ const socialShareLinks = [
     {text: 'Twitter', link: 'twitter-page'}
 ];
 
-const initialCount = 0;
+const counters = [
+    {name: 'Cat1', initialValue: 6},
+    {name: 'Cat2', initialValue: 9},
+];
+
+const resetCount = 0;
 
 function App() {
+    //const [counters, setCounters] = useState(counters);
+    const initialTotalCount = counters
+        .map(el => el.initialValue)
+        .reduce((previous, current) => previous + current);
 
-     const [totalCount, setTotalCount] = useState(initialCount);
+    const [totalCount, setTotalCount] = useState(initialTotalCount);
 
-    // function buttonClicked(name){
-    //     console.log('CLICKED!!! ' + name);
-    // }
+    const resetHandler = (name) => {
+        const msg =  'Are you sure you want to reset ' + name + ' ?';
+        if (window.confirm(msg)) {
+            setTotalCount(resetCount);
+        }
+    }
 
     function countChanges(result, addSubtractValue) {
         console.log('App: countChanges: result: ' + result + ', addSubtractValue: ' + addSubtractValue);
@@ -47,16 +60,22 @@ function App() {
         <div className="App">
             <div id="main-container" className="container p-3 my-3 border">
                 <Header navItems={navItems}/>
-                <strong>Total count</strong>: {totalCount} &nbsp;
-                <button onClick={() => setTotalCount(initialCount)}>Reset</button>
-                {/*<Content bc={buttonClicked}/>*/}
-                <Counter countChanges={countChanges}
-                         initialCount={initialCount}
-                />
-                <hr/>
-                <Counter countChanges={countChanges}
-                         initialCount={initialCount}
-                />
+
+                <h1>Count Cat Lives</h1>
+
+                <strong>Total Lives</strong>: {totalCount}
+
+                &nbsp;
+                <button onClick={() => resetHandler('All the Cats?')}>
+                    Reset All Cats
+                </button>
+
+                <div>{counters.map(el => <Counter key={el.name} counter={el}
+                                                  countChanges={countChanges}
+                                                  resetCount={resetCount}
+                                                  resetHandler={resetHandler}/>)}
+                </div>
+
                 <Footer footerNavItems={navItems}
                         socialShareLinks={socialShareLinks}/>
             </div>
