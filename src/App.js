@@ -39,6 +39,7 @@ function App() {
     function countChanges(result, addSubtractValue) {
         console.log('App: countChanges: result: ' + result + ', addSubtractValue: ' + addSubtractValue);
         console.log('App state: totalCount: ' + totalCount);
+        console.log('totalCount: ' + totalCount + ' vs result: ' + result);
         setTotalCount(totalCount + addSubtractValue);
     }
 
