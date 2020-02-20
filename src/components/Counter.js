@@ -3,21 +3,34 @@ import ResetCount from './ResetCount';
 
 function Counter(props) {
 
-    const {name} = props.counter;
+    const {name, initialValue} = props.counter;
+    const {resetAll, resetCount} = props;
 
-    const [prevCount, setCount] = useState(props.counter.initialValue);
+    const [count, setCount] = useState(initialValue);
+
+    console.log('resetAll '+resetAll);
+    console.log(resetAll === true);
 
     const incrementCountHandler = () => {
-        //prevCount++;
-        setCount(prevCount + 1);
-        console.log('Counter: prevCount in + Handler ' + prevCount);
-        props.countChanges(prevCount, +1);
+        //count++;
+        setCount(count + 1);
+        console.log('Counter: count in + Handler ' + count);
+        props.countChanges(count, +1);
     }
     const decrementCountHandler = () => {
-        //prevCount--;
-        setCount(prevCount - 1);
-        console.log('Counter: prevCount in - Handler ' + prevCount);
-        props.countChanges(prevCount, -1);
+        //count--;
+        setCount(count - 1);
+        console.log('Counter: count in - Handler ' + count);
+        props.countChanges(count, -1);
+        console.log('PROPS: ' + props.counter);
+    }
+
+    const resetHandler = (name) => {
+        const msg = 'Are you sure you want to reset ' + name + ' ?';
+        if (window.confirm(msg)) {
+            props.countChanges(count, -(count));
+            setCount(props.resetCount);
+        }
     }
 
     return (
@@ -25,11 +38,13 @@ function Counter(props) {
             <div className="row content">
                 <p>
                     <button onClick={decrementCountHandler}>-</button>
-                    &nbsp;<strong>Lives of {name} : {prevCount}</strong>&nbsp;
+                    &nbsp;<strong>Lives of {name} : {count}</strong>&nbsp;
                     <button onClick={incrementCountHandler}>+</button>
-                    <ResetCount resetCount={props.resetCount}
-                                resetHandler={props.resetHandler}
-                                counter={props.counter}/>
+
+                    &nbsp;
+                    <button onClick={() => resetHandler(name)}>
+                        Reset {name}
+                    </button>
                 </p>
             </div>
         </div>
