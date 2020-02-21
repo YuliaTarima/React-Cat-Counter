@@ -1,23 +1,22 @@
 import React from 'react';
-import Logo from './Logo';
-import Copyright from './Copyright';
-import FooterNav from './FooterNav';
-import SocialShareContainer from './SocialShareContainer';
+import logo from "../logo.jpg";
 
 function Footer(props) {
 
-  return (
-    <div className="p-3 my-3 bg-primary text-white border">
-      <footer className="container d-inline-flex flex-row align-items-stretch">
-        <div className="col-3">
-        <Logo />
-        </div>
-        <FooterNav footerNavItems={props.footerNavItems} />
-        <SocialShareContainer socialShareLinks={props.socialShareLinks} />
-        <Copyright />
-      </footer>
-    </div>
-  );
+    return (
+        <footer>
+            <a href="http://yuwebdesign.tarima.org/"
+               target="_blank"
+            >
+                &copy;&nbsp;YuWebdes!gn&nbsp;
+                {/*2019 - */}{new Date().getFullYear()}
+            </a>
+            <a href="http://yuwebdesign.tarima.org/" target="_blank">
+                <img src={logo} className="App-logo img-fluid"
+                     alt="logo"/>
+            </a>
+        </footer>
+    );
 }
 
 export default Footer;

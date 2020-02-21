@@ -7,7 +7,9 @@ function Counter(props) {
     return (
         <div className="container p-3 my-3 border">
             <div className="row content">
-                <p><strong>{name}</strong>, ID : {id} , lives: {livesCount}</p>
+                <p><strong>{name}</strong>,
+                    {/*ID : {id} , */}
+                    {' '}lives: {livesCount}</p>
             </div>
             <div className="row content">
                 <p>
@@ -20,7 +22,7 @@ function Counter(props) {
                     <button onClick={() => props.incrementLives(id)}>+
                     </button>
                     &nbsp;
-                    <button className="reset-button" onClick={() => props.resetLives(name, id)}>
+                    <button className="reset-button" onClick={() => props.resetCat(name, id)}>
                         Reset {name}
                     </button>
                     &nbsp;
