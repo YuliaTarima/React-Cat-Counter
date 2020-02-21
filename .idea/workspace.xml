@@ -25,12 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AddCounter.js" afterDir="false" />
+    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: WIP reset all counters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResetCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ResetCount.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3v1" />
+        <entry key="$PROJECT_DIR$" value="hw3v2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +111,16 @@
       <workItem from="1581534594583" duration="3910000" />
       <workItem from="1581786147162" duration="5678000" />
       <workItem from="1581865972347" duration="21336000" />
+      <workItem from="1582231249281" duration="9240000" />
     </task>
+    <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
+      <created>1582219913610</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582219913610</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,27 +149,39 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edit: WIP reset all counters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit: WIP reset all counters" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582231052034">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1582231052034" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582044288384">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582044288384" />
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom" timestamp="1582175055247">
+    <state width="1259" height="226" key="GridCell.Tab.0.bottom" timestamp="1582231108020">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582175055247" />
-    <state width="1259" height="226" key="GridCell.Tab.0.center" timestamp="1582175055247">
+    <state width="1259" height="226" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582231108020" />
+    <state width="1259" height="226" key="GridCell.Tab.0.center" timestamp="1582231108020">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582175055247" />
-    <state width="1259" height="226" key="GridCell.Tab.0.left" timestamp="1582175055247">
+    <state width="1259" height="226" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582231108020" />
+    <state width="1259" height="226" key="GridCell.Tab.0.left" timestamp="1582231108020">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582175055247" />
-    <state width="1259" height="226" key="GridCell.Tab.0.right" timestamp="1582175055247">
+    <state width="1259" height="226" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582231108020" />
+    <state width="1259" height="226" key="GridCell.Tab.0.right" timestamp="1582231108020">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582175055247" />
+    <state width="1259" height="226" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582231108020" />
+    <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582219933755">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="0" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1582219933755" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582139062760">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

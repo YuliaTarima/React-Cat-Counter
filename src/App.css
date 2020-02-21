@@ -93,6 +93,45 @@ footer {
   
 }
 
+button {
+    background-color: #20c997;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: calc(.45rem - 1px);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #CCC;
+    border-right-color: #CCC;
+    border-bottom-color: #CCC;
+    border-left-color: #7dabab;
+    -moz-box-shadow: 3px 3px 7px #e4ebeb;
+    -webkit-box-shadow: 3px 3px 7px #e4ebeb;
+    box-shadow: 3px 3px 7px #e4ebeb;
+}
+button.reset-button, button.remove-button {
+    background-color: chocolate;
+    color: #dddddd;
+    border: none;
+}
+button.revive-button {
+    /*background-color: forestgreen;*/
+    /*color: #dddddd;*/
+    border: none;
+}
+input, label {
+    padding: 10px;
+}
+.row.content {
+      padding: 0;
+      margin: 0;
+   }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
