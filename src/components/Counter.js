@@ -13,13 +13,12 @@ function Counter(props) {
     // }
 
     return (
-        <div className="container p-3 my-3 border">
+        <div className="container my-3 border">
             <div className="cat-header">
-
                     <span className="cat-avatar">
-                   <FontAwesomeIcon icon="cat"/>
+                          <FontAwesomeIcon icon="cat"/>
                     </span>
-                    <p className="cat-name">{name}, {' '}lives: {livesCount}</p>
+                <p className="cat-name">{name}, {' '}lives: {livesCount}</p>
 
             </div>
             <div className="row content">
@@ -46,7 +45,8 @@ function Counter(props) {
 
                     <button className="remove-button"
                             onClick={() => props.removeCat(name, id)}>
-                        <FontAwesomeIcon icon="times-circle"/>{' '} Remove {name}
+                        <FontAwesomeIcon
+                            icon="times-circle"/>{' '} Remove {name}
                     </button>
                 </p>
             </div>

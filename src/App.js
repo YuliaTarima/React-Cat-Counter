@@ -92,6 +92,7 @@ function App() {
     };
 
     const addCat = (name, count) => {
+        console.log('AddCat: '+name+" "+count);
         const newCounters = [...counters, {
             id: Math.random(),
             name,
