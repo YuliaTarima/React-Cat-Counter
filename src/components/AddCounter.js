@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function AddCounter(props) {
 
     const [name, setName] = useState('The Matroskin Cat');
     const [count, setCount] = useState(9);
-    console.log('AddCounter: name:' + name + ' count ' + count);
-
+   // console.log('AddCounter: name:' + name + ' count ' + count);
 
     const onSubmit = () => {
             //console.log('onSubmit: name:' + name + ' count: ' + count);
@@ -29,7 +29,7 @@ function AddCounter(props) {
                    onChange={e => setCount(e.target.value)}/>
 
 
-            <button onClick={() => onSubmit(name, count)}>Create</button>
+            <button onClick={() => onSubmit(name, count)}><FontAwesomeIcon icon="baby-carriage"/>{' '} Create</button>
 
         </div>
     );

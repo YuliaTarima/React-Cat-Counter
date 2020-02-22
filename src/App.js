@@ -5,12 +5,11 @@ import Footer from './components/Footer';
 import Counter from "./components/Counter";
 import AddCounter from "./components/AddCounter";
 
-const socialShareLinks = [
-    {text: 'Facebook', link: 'facebook-page'},
-    {text: 'OK', link: 'ok-page'},
-    {text: 'vk', link: 'vk-page'},
-    {text: 'Twitter', link: 'twitter-page'}
-];
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faPaw , faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+library.add(fab, faPaw, faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage);
 
 const InitialCountersState = [
     {id: 456, name: 'The Cheshire Cat', livesCount: 9},
@@ -26,7 +25,7 @@ function App() {
     const calculateTotalCatLives = () =>
         counters
             .map(el => el.livesCount)
-            .reduce((previous, current) => previous + current)
+            .reduce((previous, current) => previous + current);
 
     const incrementLives = (id) => {
         const index = counters.findIndex(el => el.id === id);
@@ -108,12 +107,12 @@ function App() {
                 <strong>Total Lives</strong>: {calculateTotalCatLives()}
 
                 <button className="reset-button" onClick={() => resetAllCats()}>
-                    Reset All the Cats
+                    <FontAwesomeIcon icon="skull-crossbones"/>{' '} Reset All the Cats
                 </button>
 
                 <button className="revive-button"
                         onClick={() => reviveAllCats()}>
-                    Revive All the Cats
+                    <FontAwesomeIcon icon="medkit"/>{' '} Revive All the Cats
                 </button>
 
                 <div>{counters.map(el => <Counter key={el.id}

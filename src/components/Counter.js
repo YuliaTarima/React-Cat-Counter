@@ -1,39 +1,53 @@
-import React, {useState} from 'react';
+import React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 function Counter(props) {
 
     const {id, name, livesCount} = props.counter;
 
+    // const countHearts = () => {
+    //     let hearts = ' ';
+    //     for (let i = 1; i <= livesCount; i++) {
+    //         document.write(<FontAwesomeIcon icon="heart"/>);
+    //     }
+    // }
+
     return (
         <div className="container p-3 my-3 border">
-            <div className="row content">
-                <p><strong>{name}</strong>,
-                    {/*ID : {id} , */}
-                    {' '}lives: {livesCount}</p>
+            <div className="cat-header">
+
+                    <span className="cat-avatar">
+                   <FontAwesomeIcon icon="cat"/>
+                    </span>
+                    <p className="cat-name">{name}, {' '}lives: {livesCount}</p>
+
             </div>
             <div className="row content">
+                <p><strong>Control Lives</strong></p>
                 <p>
-                    &nbsp;
-                    <strong>Control Lives</strong>&nbsp;
                     <button onClick={() => props.decrementLives(id)}>-
                     </button>
-                    &nbsp;
+
                     <strong>{livesCount}</strong>&nbsp;
                     <button onClick={() => props.incrementLives(id)}>+
                     </button>
-                    &nbsp;
-                    <button className="reset-button" onClick={() => props.resetCat(name, id)}>
-                        Reset {name}
+
+                    <button className="revive-button"
+                            onClick={() => props.reviveCat(name, id)}>
+                        <FontAwesomeIcon icon="medkit"/>{' '} Revive {name}
                     </button>
-                    &nbsp;
-                    <button className="revive-button" onClick={() => props.reviveCat(name, id)}>
-                        Revive {name}
+                </p>
+                <p>
+                    <button className="reset-button"
+                            onClick={() => props.resetCat(name, id)}>
+                        <FontAwesomeIcon
+                            icon="skull-crossbones"/>{' '} Reset {name}
                     </button>
-                    &nbsp;
-                    <button className="remove-button" onClick={() => props.removeCat(name, id)}>
-                        Remove {name}
+
+                    <button className="remove-button"
+                            onClick={() => props.removeCat(name, id)}>
+                        <FontAwesomeIcon icon="times-circle"/>{' '} Remove {name}
                     </button>
-                    &nbsp;
                 </p>
             </div>
         </div>
