@@ -20,21 +20,19 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:hw3v2" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: cat lives counter app">
+      <change beforePath="$PROJECT_DIR$/.idea/cra1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cat Counter App.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_19_2020_11_06_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_19_2020_11_06_AM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCounter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/wood.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,18 +84,8 @@
       <recent name="C:\Users\yulia\git\PASV\cra1\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -110,11 +98,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.deploy" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -131,8 +114,7 @@
       <workItem from="1581534594583" duration="3910000" />
       <workItem from="1581786147162" duration="5678000" />
       <workItem from="1581865972347" duration="21336000" />
-      <workItem from="1582231249281" duration="27628000" />
-      <workItem from="1582330386117" duration="26000" />
+      <workItem from="1582231249281" duration="15146000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
@@ -191,30 +173,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1582309626088" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582330405980">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582044288384">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582330405980" />
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom" timestamp="1582329976504">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582044288384" />
+    <state width="1259" height="226" key="GridCell.Tab.0.bottom" timestamp="1582331065281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582329976504" />
-    <state width="1259" height="226" key="GridCell.Tab.0.center" timestamp="1582329976503">
+    <state width="1259" height="226" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582331065281" />
+    <state width="1259" height="226" key="GridCell.Tab.0.center" timestamp="1582331065281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582329976503" />
-    <state width="1259" height="226" key="GridCell.Tab.0.left" timestamp="1582329976503">
+    <state width="1259" height="226" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582331065281" />
+    <state width="1259" height="226" key="GridCell.Tab.0.left" timestamp="1582331065280">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582329976503" />
-    <state width="1259" height="226" key="GridCell.Tab.0.right" timestamp="1582329976503">
+    <state width="1259" height="226" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582331065280" />
+    <state width="1259" height="226" key="GridCell.Tab.0.right" timestamp="1582331065281">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582329976503" />
-    <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582314062998">
+    <state width="1259" height="226" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582331065281" />
+    <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582306866039">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="0" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1582314062998" />
+    <state x="0" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1582306866039" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582309736864">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
