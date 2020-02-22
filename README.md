@@ -1,5 +1,6 @@
-#See Demo
+# See Demo
 https://cat-counter-app.herokuapp.com/
+https://yuwebdesign.github.io/React-Cat-Counter/
 
 # Quick Start
 
