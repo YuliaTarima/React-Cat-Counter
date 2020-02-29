@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/React-Cat-Counter/static/css/main.22c161a6.chunk.css",
-    "main.js": "/React-Cat-Counter/static/js/main.4ffe37d7.chunk.js",
-    "main.js.map": "/React-Cat-Counter/static/js/main.4ffe37d7.chunk.js.map",
+    "main.css": "/React-Cat-Counter/static/css/main.f434e1a2.chunk.css",
+    "main.js": "/React-Cat-Counter/static/js/main.87d3f8eb.chunk.js",
+    "main.js.map": "/React-Cat-Counter/static/js/main.87d3f8eb.chunk.js.map",
     "runtime-main.js": "/React-Cat-Counter/static/js/runtime-main.24b0d8fe.js",
     "runtime-main.js.map": "/React-Cat-Counter/static/js/runtime-main.24b0d8fe.js.map",
-    "static/css/2.67123b20.chunk.css": "/React-Cat-Counter/static/css/2.67123b20.chunk.css",
-    "static/js/2.89c55a8c.chunk.js": "/React-Cat-Counter/static/js/2.89c55a8c.chunk.js",
-    "static/js/2.89c55a8c.chunk.js.map": "/React-Cat-Counter/static/js/2.89c55a8c.chunk.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/React-Cat-Counter/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.a3e117ab.chunk.js": "/React-Cat-Counter/static/js/2.a3e117ab.chunk.js",
+    "static/js/2.a3e117ab.chunk.js.map": "/React-Cat-Counter/static/js/2.a3e117ab.chunk.js.map",
     "index.html": "/React-Cat-Counter/index.html",
-    "precache-manifest.30cdedf2fb6311846bfce40f704cd947.js": "/React-Cat-Counter/precache-manifest.30cdedf2fb6311846bfce40f704cd947.js",
+    "precache-manifest.d87f4db9aa2a773c6511c6ca77845ee7.js": "/React-Cat-Counter/precache-manifest.d87f4db9aa2a773c6511c6ca77845ee7.js",
     "service-worker.js": "/React-Cat-Counter/service-worker.js",
-    "static/css/2.67123b20.chunk.css.map": "/React-Cat-Counter/static/css/2.67123b20.chunk.css.map",
-    "static/css/main.22c161a6.chunk.css.map": "/React-Cat-Counter/static/css/main.22c161a6.chunk.css.map",
-    "static/js/2.89c55a8c.chunk.js.LICENSE.txt": "/React-Cat-Counter/static/js/2.89c55a8c.chunk.js.LICENSE.txt",
+    "static/css/2.47e06e2e.chunk.css.map": "/React-Cat-Counter/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.f434e1a2.chunk.css.map": "/React-Cat-Counter/static/css/main.f434e1a2.chunk.css.map",
+    "static/js/2.a3e117ab.chunk.js.LICENSE.txt": "/React-Cat-Counter/static/js/2.a3e117ab.chunk.js.LICENSE.txt",
     "static/media/logo.jpg": "/React-Cat-Counter/static/media/logo.56688d3d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.24b0d8fe.js",
-    "static/css/2.67123b20.chunk.css",
-    "static/js/2.89c55a8c.chunk.js",
-    "static/css/main.22c161a6.chunk.css",
-    "static/js/main.4ffe37d7.chunk.js"
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.a3e117ab.chunk.js",
+    "static/css/main.f434e1a2.chunk.css",
+    "static/js/main.87d3f8eb.chunk.js"
   ]
 }
