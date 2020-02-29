@@ -4,23 +4,34 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Counter from "./components/Counter";
 import AddCounter from "./components/AddCounter";
+import ConfirmDeleteCat from "./components/ConfirmDeleteCat";
 
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faPaw , faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage} from '@fortawesome/free-solid-svg-icons';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {fab} from '@fortawesome/free-brands-svg-icons';
+import {
+    faPaw,
+    faCat,
+    faHeart,
+    faMedkit,
+    faSkullCrossbones,
+    faTimesCircle,
+    faBabyCarriage
+} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-library.add(fab, faPaw, faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage);
 
-const InitialCountersState = [
-    {id: 456, name: 'The Cheshire Cat', livesCount: 9},
-    {id: 123, name: 'Cat in The Hat', livesCount: 6},
-    {id: 234, name: 'Witches Black Cat', livesCount: 6},
-    {id: 345, name: 'Happy Fat Cat', livesCount: 6}
-];
+library.add(fab, faPaw, faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage);
 
 function App() {
 
+    const InitialCountersState = [
+        {id: 456, name: 'The Cheshire Cat', livesCount: 9},
+        {id: 123, name: 'Cat in The Hat', livesCount: 6},
+        {id: 234, name: 'Witches Black Cat', livesCount: 6},
+        {id: 345, name: 'Happy Fat Cat', livesCount: 6}
+    ];
+
     const [counters, setCounters] = useState(InitialCountersState);
+    const [confirmDeleteCatCounter, setConfirmDeleteCatCounter] = useState({});
 
     const calculateTotalCatLives = () =>
         counters
@@ -78,21 +89,35 @@ function App() {
             setCounters(newCounters);
         }
     }
-
-    const removeCat = (name, id) => {
-        const msg = 'Are you sure you want to remove ' + name + ' ?';
-        if (window.confirm(msg)) {
-            if (counters.length === 1) {
-                window.confirm('Can not remove the sole survivor');
-                return counters;
-            }
-            const newCounters = counters.filter(el => el.id !== id);
-            setCounters(newCounters);
-        }
+    //**************
+    const confirmRemoveCat = counter => {
+        setConfirmDeleteCatCounter(counter);
     };
 
+    const removeConfirmedCat = () => {
+        const newCounters = counters.filter(el => el.id !== confirmDeleteCatCounter.id);
+        setCounters(newCounters);
+        setConfirmDeleteCatCounter({});
+    };
+    const cancelConfirmRemoveCat = () => {
+        setConfirmDeleteCatCounter({})
+    };
+    //**************
+
+    // const removeCat = (name, id) => {
+    //     const msg = 'Are you sure you want to remove ' + name + ' ?';
+    //     if (window.confirm(msg)) {
+    //         if (counters.length === 1) {
+    //             window.confirm('Can not remove the sole survivor');
+    //             return counters;
+    //         }
+    //         const newCounters = counters.filter(el => el.id !== id);
+    //         setCounters(newCounters);
+    //     }
+    // };
+
     const addCat = (name, count) => {
-        console.log('AddCat: '+name+" "+count);
+        console.log('AddCat: ' + name + " " + count);
         const newCounters = [...counters, {
             id: Math.random(),
             name,
@@ -105,30 +130,37 @@ function App() {
         <div className="App">
             <Header/>
             <div id="main-container" className="container p-3 my-3 border">
-                <strong>Total Lives</strong>: {calculateTotalCatLives()}
+                <div className="container border cat-total">
+                    <strong>Total Lives</strong>: {calculateTotalCatLives()}
 
-                <button className="reset-button" onClick={() => resetAllCats()}>
-                    <FontAwesomeIcon icon="skull-crossbones"/>{' '} Reset All the Cats
-                </button>
+                    <button className="reset-button"
+                            onClick={() => resetAllCats()}>
+                        <FontAwesomeIcon icon="skull-crossbones"/>{' '} Reset
+                        All the Cats
+                    </button>
 
-                <button className="revive-button"
-                        onClick={() => reviveAllCats()}>
-                    <FontAwesomeIcon icon="medkit"/>{' '} Revive All the Cats
-                </button>
-
-                <div>{counters.map(el => <Counter key={el.id}
-                                                  counter={el}
-                                                  id={el.id}
-                                                  name={el.name}
-                                                  livesCount={el.livesCount}
-                                                  incrementLives={incrementLives}
-                                                  decrementLives={decrementLives}
-                                                  resetCat={resetCat}
-                                                  reviveCat={reviveCat}
-                                                  removeCat={removeCat}
-                />)}
+                    <button className="revive-button"
+                            onClick={() => reviveAllCats()}>
+                        <FontAwesomeIcon icon="medkit"/>{' '} Revive All the
+                        Cats
+                    </button>
+                </div>
+                <div className="row row-eq-height">
+                    {counters.map(el => <Counter key={el.id}
+                                                 counter={el}
+                                                 incrementLives={incrementLives}
+                                                 decrementLives={decrementLives}
+                                                 resetCat={resetCat}
+                                                 reviveCat={reviveCat}
+                                                 removeCat={confirmRemoveCat}
+                    />)}
                 </div>
                 <AddCounter onSubmit={() => addCat()} addCat={addCat}/>
+                <ConfirmDeleteCat
+                    name={confirmDeleteCatCounter.name}
+                    onSuccess={removeConfirmedCat}
+                    onCancel={cancelConfirmRemoveCat}
+                />
             </div>
             <Footer/>
         </div>

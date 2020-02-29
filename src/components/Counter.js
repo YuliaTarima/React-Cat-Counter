@@ -4,6 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 function Counter(props) {
 
     const {id, name, livesCount} = props.counter;
+    const {counter, incrementLives, decrementLives, reviveCat, resetCat, removeCat} = props;
 
     // const countHearts = () => {
     //     let hearts = ' ';
@@ -13,42 +14,48 @@ function Counter(props) {
     // }
 
     return (
-        <div className="container my-3 border">
-            <div className="cat-header">
-                    <span className="cat-avatar">
-                          <FontAwesomeIcon icon="cat"/>
-                    </span>
-                <p className="cat-name">{name}, {' '}lives: {livesCount}</p>
+        <div className="col-sm-6 col-lg-6 col-xs-12">
+            <div className="card my-2 m-1">
+                <div className="card-body">
 
-            </div>
-            <div className="row content">
-                <p><strong>Control Lives</strong></p>
-                <p>
-                    <button onClick={() => props.decrementLives(id)}>-
-                    </button>
+                    <div className="cat-avatar card-img-top">
+                        <FontAwesomeIcon icon="cat"/>
+                    </div>
+                    <div className="card-body">
+                        <p className="cat-name card-title">{name}</p>
+                        <div className="cat-header ">
+                            Lives: {livesCount}
+                        </div>
+                        <p><strong>Control Lives</strong></p>
+                        <p>
+                            <button onClick={() => decrementLives(id)}>-
+                            </button>
 
-                    <strong>{livesCount}</strong>&nbsp;
-                    <button onClick={() => props.incrementLives(id)}>+
-                    </button>
+                            <strong>{livesCount}</strong>&nbsp;
+                            <button onClick={() => incrementLives(id)}>+
+                            </button>
 
-                    <button className="revive-button"
-                            onClick={() => props.reviveCat(name, id)}>
-                        <FontAwesomeIcon icon="medkit"/>{' '} Revive {name}
-                    </button>
-                </p>
-                <p>
-                    <button className="reset-button"
-                            onClick={() => props.resetCat(name, id)}>
-                        <FontAwesomeIcon
-                            icon="skull-crossbones"/>{' '} Reset {name}
-                    </button>
+                            <button className="revive-button"
+                                    onClick={() => reviveCat(name, id)}>
+                                <FontAwesomeIcon
+                                    icon="medkit"/>{' '} Revive {name}
+                            </button>
+                        </p>
+                        <p>
+                            <button className="reset-button"
+                                    onClick={() => resetCat(name, id)}>
+                                <FontAwesomeIcon
+                                    icon="skull-crossbones"/>{' '} Reset {name}
+                            </button>
 
-                    <button className="remove-button"
-                            onClick={() => props.removeCat(name, id)}>
-                        <FontAwesomeIcon
-                            icon="times-circle"/>{' '} Remove {name}
-                    </button>
-                </p>
+                            <button className="remove-button"
+                                    onClick={() => removeCat(counter)}>
+                                <FontAwesomeIcon
+                                    icon="times-circle"/>{' '} Remove {name}
+                            </button>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -15,50 +15,47 @@
     /* IE6–IE9 */
     filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713, SizingMethod='auto expand');
 }
+
 img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-.header-logo {
-    font-size: 15vw;
-}
-.cat-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: baseline;
-    padding: 0;
-    margin: 0;
-}
-.cat-avatar {
-    padding: 0px 10px;
-    margin: 0;
-    font-size: 15vw;
-    color: chocolate;
-}
-.cat-name {
-    font-size: 25px;
-}
+
 footer, header {
     color: #dddddd;
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-evenly;
     font-size: calc(10px + 2vmin);
 }
+
 header {
     background-color: #20c997;
-    padding: 15px;
+    padding: 10px 50px;
+    margin: 0 auto;
+    justify-items: center;
 }
+
+.header-logo {
+    font-size: 15vw;
+}
+
+.header-heading {
+    margin-left: 20px;
+
+}
+
 footer {
     background-color: chocolate;
     padding-top: 5vh;
+    justify-content: space-evenly;
 }
+
 a, a:visited {
     color: #ddd;
     font-weight: lighter;
     font-size: 17px;
 }
+
 a:hover {
     color: #20c997;
     text-decoration: none;
@@ -118,7 +115,63 @@ input, label {
     padding: 10px;
 }
 
-.row.content {
+.col-sm-6 {
+    /*display: table-cell;*/
+    padding-left: 10px;
+    margin: 7px 0;
+}
+
+.card {
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
+    text-align: center;
+    height: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .card {
+        width: 15rem;
+    }
+}
+@media (max-width: 767.98px) {
+    .card {
+        width: 100%;
+    }
+}
+
+
+div.card-body {
+    padding: 3px;
+}
+
+/*card*/
+.cat-avatar.card-img-top {
+    margin: 0 auto;
+    font-size: 25vw;
+    color: chocolate;
+    padding: 0;
+}
+
+.cat-name {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.cat-header {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: left;*/
+    /*align-items: baseline;*/
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.add-counter {
+    margin: 10px 0 0 0;
+    padding: 13px 0 10px 7px;
+}
+
+.cat-total {
+    padding: 10px;
 }

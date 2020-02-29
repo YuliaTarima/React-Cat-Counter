@@ -5,12 +5,12 @@ function AddCounter(props) {
 
     const [name, setName] = useState('The Matroskin Cat');
     const [count, setCount] = useState(9);
-    console.log('AddCounter state');
-    console.log(name);
-    console.log(count);
+    // console.log('AddCounter state');
+    // console.log(name);
+    // console.log(count);
 
     const onSubmit = () => {
-            console.log('onSubmit: name: ' + name + ', count: ' + count);
+            console.log('AddCounter onSubmit: name: ' + name + ', count: ' + count);
             if (count > 9) {
                 (window.confirm('Maximum cat lives is 9'))
             } else {
@@ -23,7 +23,7 @@ function AddCounter(props) {
     ;
 
     return (
-        <div>
+        <div className="container border add-counter">
             <label>Cat Name</label>
             <input type="text" name='name' value={name}
                    onChange={e => setName(e.target.value)}/>

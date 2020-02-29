@@ -25,12 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: cat lives counter app">
+    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: css">
+      <change afterPath="$PROJECT_DIR$/src/components/ConfirmDeleteCat.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_19_2020_11_06_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_19_2020_11_06_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +73,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../otherPeople/viktorBogutski/fe-counter-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,7 +120,11 @@
       <workItem from="1581786147162" duration="5678000" />
       <workItem from="1581865972347" duration="21336000" />
       <workItem from="1582231249281" duration="15146000" />
-      <workItem from="1582340156010" duration="2399000" />
+      <workItem from="1582340156010" duration="3761000" />
+      <workItem from="1582391224566" duration="9695000" />
+      <workItem from="1582564192111" duration="1336000" />
+      <workItem from="1582822806771" duration="7334000" />
+      <workItem from="1582912911896" duration="11145000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
@@ -129,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582306828969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Edit: css">
+      <created>1582342594789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582342594789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,37 +179,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit: WIP reset all counters" />
     <MESSAGE value="Edit: cat lives counter app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit: cat lives counter app" />
+    <MESSAGE value="Edit: css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit: css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582231052034">
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582828671225">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1582231052034" />
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.689@0.0.1280.689" timestamp="1582828671225" />
     <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582309626088">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1582309626088" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582044288384">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582931779305">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582044288384" />
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom" timestamp="1582333262515">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582931779305" />
+    <state width="619" height="2" key="GridCell.Tab.0.bottom" timestamp="1582950959536">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582333262515" />
-    <state width="1259" height="226" key="GridCell.Tab.0.center" timestamp="1582333262515">
+    <state width="619" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
+    <state width="619" height="2" key="GridCell.Tab.0.center" timestamp="1582950959536">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582333262515" />
-    <state width="1259" height="226" key="GridCell.Tab.0.left" timestamp="1582333262515">
+    <state width="619" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
+    <state width="619" height="2" key="GridCell.Tab.0.left" timestamp="1582950959536">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582333262515" />
-    <state width="1259" height="226" key="GridCell.Tab.0.right" timestamp="1582333262515">
+    <state width="619" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
+    <state width="619" height="2" key="GridCell.Tab.0.right" timestamp="1582950959536">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1259" height="226" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582333262515" />
+    <state width="619" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
     <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582306866039">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
