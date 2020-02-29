@@ -26,7 +26,7 @@ function App() {
     const InitialCountersState = [
         {id: 456, name: 'The Cheshire Cat', livesCount: 9},
         {id: 123, name: 'Cat in The Hat', livesCount: 6},
-        {id: 234, name: 'Witches Black Cat', livesCount: 6},
+        {id: 234, name: 'Witch\'s Black Cat', livesCount: 6},
         {id: 345, name: 'Happy Fat Cat', livesCount: 6}
     ];
 
