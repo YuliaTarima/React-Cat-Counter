@@ -25,7 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: css" />
+    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: css">
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +65,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../otherPeople/viktorBogutski/fe-counter-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,7 +116,10 @@
       <workItem from="1582391224566" duration="9695000" />
       <workItem from="1582564192111" duration="1336000" />
       <workItem from="1582822806771" duration="7334000" />
-      <workItem from="1582912911896" duration="12798000" />
+      <workItem from="1582912911896" duration="13997000" />
+      <workItem from="1582996375740" duration="166000" />
+      <workItem from="1582996560734" duration="884000" />
+      <workItem from="1583035396126" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
@@ -178,26 +186,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1582309626088" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582931779305">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582996669801">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582931779305" />
-    <state width="619" height="2" key="GridCell.Tab.0.bottom" timestamp="1582950959536">
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582996669801" />
+    <state width="619" height="2" key="GridCell.Tab.0.bottom" timestamp="1582994413717">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
-    <state width="619" height="2" key="GridCell.Tab.0.center" timestamp="1582950959536">
+    <state width="619" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582994413717" />
+    <state width="619" height="2" key="GridCell.Tab.0.center" timestamp="1582994413716">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
-    <state width="619" height="2" key="GridCell.Tab.0.left" timestamp="1582950959536">
+    <state width="619" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582994413716" />
+    <state width="619" height="2" key="GridCell.Tab.0.left" timestamp="1582994413716">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
-    <state width="619" height="2" key="GridCell.Tab.0.right" timestamp="1582950959536">
+    <state width="619" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582994413716" />
+    <state width="619" height="2" key="GridCell.Tab.0.right" timestamp="1582994413717">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582950959536" />
+    <state width="619" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582994413717" />
     <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582306866039">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
