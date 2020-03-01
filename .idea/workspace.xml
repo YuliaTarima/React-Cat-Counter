@@ -27,7 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: css">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,7 @@
       <workItem from="1582996375740" duration="166000" />
       <workItem from="1582996560734" duration="884000" />
       <workItem from="1583035396126" duration="1012000" />
-      <workItem from="1583038661750" duration="2891000" />
+      <workItem from="1583038661750" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
