@@ -25,9 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: css">
+    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: resolve conflicts">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +212,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="619" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582994413717" />
+    <state x="121" y="52" key="MergeDialog" timestamp="1583524657848">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="121" y="52" key="MergeDialog/0.0.1280.689@0.0.1280.689" timestamp="1583524657848" />
+    <state x="355" y="57" key="MultipleFileMergeDialog" timestamp="1583524657855">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="355" y="57" key="MultipleFileMergeDialog/0.0.1280.689@0.0.1280.689" timestamp="1583524657855" />
     <state x="0" y="78" key="Vcs.Push.Dialog.v2" timestamp="1582306866039">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
