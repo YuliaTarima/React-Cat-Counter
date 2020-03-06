@@ -11,9 +11,9 @@ jobs:
           steps:
             - run: npm install
             - run: npm test
-            - deploy:
-                name: Publish to DreamHost
-                command: npm run deploy
+#            - deploy:
+#                name: Publish to GitHub Pages
+#                command: npm run deploy
 workflows:
   build-and-test:
     jobs:
