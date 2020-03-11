@@ -1,21 +1,20 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import Counter from "./Counter";
+import CatItem from "./CatItem";
 
 function CatList(props) {
 
-        return (
-            <div>
+    return (
+        <div className="row row-eq-height">
 
-                <ul>
-                    {
-                        props.catList.map(el =>
-                            <li key={el.id}>{el.name}</li>)
-                    }
-                </ul>
+                {props.catList.map(el => <CatItem key={el.id}/>)}
+                {/*{props.catList.map(el =>*/}
+                {/*    <li key={el.id}>{el.name}</li>*/}
+                {/*)}*/}
 
-            </div>
-        );
-
+        </div>
+    );
 }
 
 const mapStateToProps = state => ({
