@@ -26,13 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: resolve conflicts">
-      <change afterPath="$PROJECT_DIR$/src/App1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/todo/AllCatsActions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/todo/_reducers/todoReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/todo/_reducers/catCounterReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/todo/todoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/todo/catList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/todo/_reducers/catCounterReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/todo/_reducers/catCounterReducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/todo/catList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/todo/CatList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +87,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yulia\git\PASV\MyProjects\CatCounter\React-Cat-Counter\src\modules\todo" />
+      <recent name="C:\Users\yulia\git\PASV\MyProjects\CatCounter\React-Cat-Counter\src\modules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yulia\git\PASV\cra1\public" />
       <recent name="C:\Users\yulia\git\PASV\cra1\src\components" />
@@ -136,7 +139,7 @@
       <workItem from="1583522117563" duration="58000" />
       <workItem from="1583876344924" duration="3749000" />
       <workItem from="1583892048785" duration="1422000" />
-      <workItem from="1583955820028" duration="3484000" />
+      <workItem from="1583955820028" duration="5578000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>

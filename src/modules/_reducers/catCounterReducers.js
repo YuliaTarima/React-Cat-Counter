@@ -7,7 +7,7 @@ const InitialCountersState = {
 ]
 };
 
-const todo = (state = InitialCountersState, action) => {
+const cats = (state = InitialCountersState, action) => {
     switch (action.type) {
         case 'TODO_ADD':
             return {
@@ -19,4 +19,4 @@ const todo = (state = InitialCountersState, action) => {
     }
 };
 
-export default todo;
+export default cats;

@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class CatList extends Component {
-    render() {
+function CatList(props) {
+
         return (
             <div>
 
                 <ul>
                     {
-                        this.props.catList.map(el =>
+                        props.catList.map(el =>
                             <li key={el.id}>{el.name}</li>)
                     }
                 </ul>
 
             </div>
         );
-    }
+
 }
 
 const mapStateToProps = state => ({
-    catList: state.todo.catList,
+    catList: state.cats.catList,
 });
 
 const mapDispatchToProps = dispatch => ({

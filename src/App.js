@@ -5,8 +5,8 @@ import Footer from './components/Footer';
 import Counter from "./components/Counter";
 import AddCounter from "./components/AddCounter";
 import ConfirmDeleteCat from "./components/ConfirmDeleteCat";
-import CatList from "./modules/todo/catList";
-
+import CatList from "./components/CatList";
+import AllCatsActions from "./components/AllCatsActions";
 
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
@@ -26,7 +26,12 @@ library.add(fab, faPaw, faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCirc
 function App() {
     return (
         <div className="App">
-            <CatList />
+            <Header/>
+            <div id="main-container" className="container p-3 my-3 border">
+                <AllCatsActions/>
+                <CatList/>
+            </div>
+            <Footer/>
         </div>
     );
 }

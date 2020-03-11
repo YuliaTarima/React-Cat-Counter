@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import todo from "../modules/todo/_reducers/catCounterReducers";
+import cats from "../modules/_reducers/catCounterReducers";
 
 // Combine Reducers
 const reducer = combineReducers({
-    todo,
+    cats,
 });
 
 export default reducer;
