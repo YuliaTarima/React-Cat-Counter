@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: resolve conflicts" />
+    <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: resolve conflicts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +131,7 @@
       <workItem from="1583522117563" duration="58000" />
       <workItem from="1583876344924" duration="3749000" />
       <workItem from="1583892048785" duration="1422000" />
-      <workItem from="1583955820028" duration="329000" />
+      <workItem from="1583955820028" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
@@ -199,22 +202,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583527768711" />
-    <state width="619" height="2" key="GridCell.Tab.0.bottom" timestamp="1582994413717">
+    <state width="1259" height="169" key="GridCell.Tab.0.bottom" timestamp="1583956524897">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1582994413717" />
-    <state width="619" height="2" key="GridCell.Tab.0.center" timestamp="1582994413716">
+    <state width="1259" height="169" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583956524897" />
+    <state width="1259" height="169" key="GridCell.Tab.0.center" timestamp="1583956524896">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1582994413716" />
-    <state width="619" height="2" key="GridCell.Tab.0.left" timestamp="1582994413716">
+    <state width="1259" height="169" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583956524896" />
+    <state width="1259" height="169" key="GridCell.Tab.0.left" timestamp="1583956524896">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1582994413716" />
-    <state width="619" height="2" key="GridCell.Tab.0.right" timestamp="1582994413717">
+    <state width="1259" height="169" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583956524896" />
+    <state width="1259" height="169" key="GridCell.Tab.0.right" timestamp="1583956524897">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="619" height="2" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1582994413717" />
+    <state width="1259" height="169" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583956524897" />
     <state x="121" y="52" key="MergeDialog" timestamp="1583524657848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
