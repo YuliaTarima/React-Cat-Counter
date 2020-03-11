@@ -18,7 +18,6 @@ import {
     faBabyCarriage
 } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 library.add(fab, faPaw, faCat, faHeart, faMedkit, faSkullCrossbones, faTimesCircle, faBabyCarriage);
 
 function App() {

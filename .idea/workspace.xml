@@ -26,7 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d7e6bcd-79b7-4577-9e87-ce3f2f51f240" name="Default Changelist" comment="Edit: resolve conflicts">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfirmEditCat.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XSypSVznaeWDs6I7pzP85Vg7qh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -126,6 +130,8 @@
       <workItem from="1583035396126" duration="1012000" />
       <workItem from="1583038661750" duration="4889000" />
       <workItem from="1583522117563" duration="58000" />
+      <workItem from="1583876344924" duration="3749000" />
+      <workItem from="1583892048785" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="Edit: WIP reset all counters">
       <created>1582219913610</created>
@@ -192,10 +198,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1582309626088" />
-    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582996669801">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1583527768711">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582996669801" />
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1583527768711" />
     <state width="619" height="2" key="GridCell.Tab.0.bottom" timestamp="1582994413717">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
