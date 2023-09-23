@@ -1,7 +1,5 @@
 # See Demo
-<ul>
-<li>https://yuliatarima.github.io/React-Cat-Counter/</li>
-</ul>
+https://yuliatarima.github.io/React-Cat-Counter/
 
 # Quick Start
 
