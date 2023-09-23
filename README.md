@@ -1,6 +1,5 @@
 # See Demo
 <ul>
-<li>https://cat-counter-app.herokuapp.com/</li>
 <li>https://yuliatarima.github.io/React-Cat-Counter/</li>
 </ul>
 
